@@ -28,19 +28,6 @@ def create_layout(app):
                         ],
                         className="row ",
                     ),
-                    html.Div(
-                        [
-                            html.Div(
-                                [
-                                    html.H6(
-                                        ["Worst Performers %"], className="subtitle padded"
-                                    ),
-                                    html.Table(make_dash_table(get_stocks(market_cap="",sector="",sortable='change').tail())),
-                                ], className='tablemobile'
-                            ),
-                        ],
-                        className="row ",
-                    ),
                     # Row
                     html.Div(
                         [
