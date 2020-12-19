@@ -361,11 +361,3 @@ a:active {
         display: block;
     }
 }
-
-@media only screen and (max-width: 480px) {
-    /* horizontal scrollbar for tables if mobile screen */
-    .mobile_chart {
-        width: 700px;
-        height: 400px;
-    }
-}
