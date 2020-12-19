@@ -1,0 +1,22 @@
+.DateInput {
+  margin-top: -7px;
+  padding-top: 0;
+  padding-bottom: 0px;
+  background: 0;
+  position: relative;
+  display: inline-block;
+  height: 32px;
+  width:120px;
+}
+
+.DateInput_1 {
+  font-weight:100
+  width: 25px;
+
+}
+.DateInput_input {
+  font-size: inherit;
+  height: 28px;
+  width:120px;
+}
+
